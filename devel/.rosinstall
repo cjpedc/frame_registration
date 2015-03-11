@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tmrcv1/catkin_ws/src/frame_registration/devel/setup.sh

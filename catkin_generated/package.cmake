@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "frame_registration")
+set(frame_registration_MAINTAINER "carlos <carlos@todo.todo>")
+set(frame_registration_DEPRECATED "")
+set(frame_registration_VERSION "0.0.0")
+set(frame_registration_BUILD_DEPENDS )
+set(frame_registration_RUN_DEPENDS )
+set(frame_registration_BUILDTOOL_DEPENDS "catkin")
