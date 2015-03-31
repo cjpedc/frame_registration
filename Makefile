@@ -38,6 +38,9 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
+
 # The top-level source directory on which CMake was run.
 CMAKE_SOURCE_DIR = /home/tmrcv1/catkin_ws/src/frame_registration
 
@@ -49,8 +52,8 @@ CMAKE_BINARY_DIR = /home/tmrcv1/catkin_ws/src/frame_registration
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -462,6 +465,58 @@ nodelet_generate_messages_py/fast:
 .PHONY : nodelet_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_cpp
+
+# Build rule for target.
+pcl_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_cpp
+.PHONY : pcl_msgs_generate_messages_cpp
+
+# fast build rule for target.
+pcl_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
+.PHONY : pcl_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_lisp
+
+# Build rule for target.
+pcl_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_lisp
+.PHONY : pcl_msgs_generate_messages_lisp
+
+# fast build rule for target.
+pcl_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
+.PHONY : pcl_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_py
+
+# Build rule for target.
+pcl_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_py
+.PHONY : pcl_msgs_generate_messages_py
+
+# fast build rule for target.
+pcl_msgs_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make CMakeFiles/pcl_msgs_generate_messages_py.dir/build
+.PHONY : pcl_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named pcl_ros_gencfg
+
+# Build rule for target.
+pcl_ros_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_gencfg
+.PHONY : pcl_ros_gencfg
+
+# fast build rule for target.
+pcl_ros_gencfg/fast:
+	$(MAKE) -f CMakeFiles/pcl_ros_gencfg.dir/build.make CMakeFiles/pcl_ros_gencfg.dir/build
+.PHONY : pcl_ros_gencfg/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
 
 # Build rule for target.
@@ -722,6 +777,45 @@ tf_generate_messages_py/fast:
 .PHONY : tf_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named topic_tools_generate_messages_cpp
+
+# Build rule for target.
+topic_tools_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_cpp
+.PHONY : topic_tools_generate_messages_cpp
+
+# fast build rule for target.
+topic_tools_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make CMakeFiles/topic_tools_generate_messages_cpp.dir/build
+.PHONY : topic_tools_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_lisp
+
+# Build rule for target.
+topic_tools_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_lisp
+.PHONY : topic_tools_generate_messages_lisp
+
+# fast build rule for target.
+topic_tools_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make CMakeFiles/topic_tools_generate_messages_lisp.dir/build
+.PHONY : topic_tools_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_py
+
+# Build rule for target.
+topic_tools_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_py
+.PHONY : topic_tools_generate_messages_py
+
+# fast build rule for target.
+topic_tools_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/topic_tools_generate_messages_py.dir/build.make CMakeFiles/topic_tools_generate_messages_py.dir/build
+.PHONY : topic_tools_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named gtest
 
 # Build rule for target.
@@ -746,6 +840,60 @@ gtest_main: cmake_check_build_system
 gtest_main/fast:
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
+
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.o
+
+# target to build an object file
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o:
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
+
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.i
+
+# target to preprocess a source file
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i:
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i
+
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.s
+
+# target to generate assembly for a file
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s:
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s
+
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.o
+
+# target to build an object file
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o:
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
+
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.i
+
+# target to preprocess a source file
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i:
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i
+
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.s
+
+# target to generate assembly for a file
+home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s:
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s
+.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s
 
 src/frame_registration.o: src/frame_registration.cpp.o
 .PHONY : src/frame_registration.o
@@ -809,6 +957,10 @@ help:
 	@echo "... nodelet_generate_messages_cpp"
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... nodelet_generate_messages_py"
+	@echo "... pcl_msgs_generate_messages_cpp"
+	@echo "... pcl_msgs_generate_messages_lisp"
+	@echo "... pcl_msgs_generate_messages_py"
+	@echo "... pcl_ros_gencfg"
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
@@ -831,8 +983,17 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
+	@echo "... topic_tools_generate_messages_cpp"
+	@echo "... topic_tools_generate_messages_lisp"
+	@echo "... topic_tools_generate_messages_py"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.o"
+	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.i"
+	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.s"
+	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.o"
+	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.i"
+	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.s"
 	@echo "... src/frame_registration.o"
 	@echo "... src/frame_registration.i"
 	@echo "... src/frame_registration.s"

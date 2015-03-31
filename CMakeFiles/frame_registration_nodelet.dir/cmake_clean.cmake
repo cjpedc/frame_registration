@@ -1,7 +1,9 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/frame_registration_nodelet.dir/src/frame_registration.cpp.o"
-  "libframe_registration_nodelet.pdb"
-  "libframe_registration_nodelet.so"
+  "CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o"
+  "CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o"
+  "devel/lib/libframe_registration_nodelet.pdb"
+  "devel/lib/libframe_registration_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

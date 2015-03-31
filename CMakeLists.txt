@@ -1,6 +1,16 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(frame_registration)
 
+## Find catkin macros and libraries
+## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
+## is used, also find other catkin packages
+find_package(catkin REQUIRED COMPONENTS
+  pcl_conversions
+  pcl_ros
+  roscpp
+  sensor_msgs
+)
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DBT_USE_DOUBLE_PRECISION -Wall")
 # Unused warnings
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter")
@@ -26,6 +36,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp rostime std_msgs sensor_msgs node
 ## System dependencies are found with CMake's conventions
 find_package(OpenCV REQUIRED)
 find_package(OpenMP)
+find_package(PCL REQUIRED)
 
 if(OPENMP_FOUND)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
@@ -44,12 +55,14 @@ endif()
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
-# catkin_package(
+ catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES frame_registration
 #  CATKIN_DEPENDS other_catkin_pkg
-#  DEPENDS system_lib
-#)
+  DEPENDS system_lib
+  DEPENDS
+  PCL
+)
 
 ###########
 ## Build ##
@@ -68,6 +81,7 @@ include_directories(include
   ${catkin_INCLUDE_DIRS}
   ${OpenCV_INCLUDE_DIR}
   ${freenect2_INCLUDE_DIRS}
+  ${PCL_INCLUDE_DIRS}
 )
 
 if(DEPTH_REG_OPENCL)
@@ -97,21 +111,22 @@ INCLUDE_DIRECTORIES(
 
 link_directories(/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib)
 
-add_library(frame_registration_nodelet SHARED src/frame_registration.cpp)
+add_library(frame_registration_nodelet SHARED src/frame_registration.cpp /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp)
 target_link_libraries(frame_registration_nodelet
   ${catkin_LIBRARIES}
   ${OpenCV_LIBRARIES}
   ${freenect2_LIBRARY}
+  ${PCL_LIBRARIES}
 
 )
 
-add_executable(frame_registration src/frame_registration.cpp)
+add_executable(frame_registration src/frame_registration.cpp /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp)
 target_link_libraries(frame_registration
   ${catkin_LIBRARIES}
   ${OpenCV_LIBRARIES}
   ${freenect2_LIBRARY}
+  ${PCL_LIBRARIES}
 )
-
 
 
 #############
@@ -161,3 +176,13 @@ target_link_libraries(frame_registration
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+#find_package(catkin REQUIRED)
+# PCL
+find_package(PCL 1.7 REQUIRED)
+include_directories(${PCL_INCLUDE_DIRS})
+include_directories(/usr/include/pcl-1.7)
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
+
