@@ -121,230 +121,360 @@ CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/e
 
 CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o.provides.build: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
 
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o: CMakeFiles/frame_registration.dir/flags.make
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp > CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.requires
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.provides: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.provides
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.provides.build: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o: CMakeFiles/frame_registration.dir/flags.make
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp > CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.requires
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.provides: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.provides
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.provides.build: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o: CMakeFiles/frame_registration.dir/flags.make
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp > CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.requires
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.provides: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.provides
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.provides.build: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o: CMakeFiles/frame_registration.dir/flags.make
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp > CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.requires
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.provides: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.provides
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.provides.build: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o: CMakeFiles/frame_registration.dir/flags.make
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp > CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp -o CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.requires
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.provides: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.provides
+
+CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.provides.build: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o
+
 # Object files for target frame_registration
 frame_registration_OBJECTS = \
 "CMakeFiles/frame_registration.dir/src/frame_registration.cpp.o" \
 "CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o" \
-"CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o"
+"CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o" \
+"CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o" \
+"CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o" \
+"CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o" \
+"CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o" \
+"CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o"
 
 # External object files for target frame_registration
 frame_registration_EXTERNAL_OBJECTS =
 
-devel/lib/frame_registration/frame_registration: CMakeFiles/frame_registration.dir/src/frame_registration.cpp.o
-devel/lib/frame_registration/frame_registration: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
-devel/lib/frame_registration/frame_registration: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
-devel/lib/frame_registration/frame_registration: CMakeFiles/frame_registration.dir/build.make
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libnodeletlib.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libbondcpp.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libuuid.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libcompressed_depth_image_transport.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.8
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libcv_bridge.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libimage_transport.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libclass_loader.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libPocoFoundation.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libdl.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libroslib.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libtf.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libtf2_ros.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libactionlib.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libmessage_filters.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libroscpp.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libxmlrpcpp.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libtf2.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libroscpp_serialization.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/librosconsole.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-devel/lib/frame_registration/frame_registration: /usr/lib/liblog4cxx.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/librostime.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libcpp_common.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_system.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libpthread.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-devel/lib/frame_registration/frame_registration: /home/tmrcv1/catkin_ws/devel/lib/libdepth_registration.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_nonfree.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/local/lib/libfreenect2.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_system.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libpthread.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_common.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_kdtree.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_octree.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_search.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libqhull.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_surface.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_sample_consensus.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libOpenNI.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkCommon.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkFiltering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkImaging.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkGraphics.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkGenericFiltering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkIO.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkRendering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkVolumeRendering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkHybrid.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkWidgets.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkParallel.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkInfovis.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkGeovis.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkViews.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkCharts.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_io.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_filters.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_features.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_keypoints.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_registration.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_segmentation.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_recognition.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_visualization.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_people.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_outofcore.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_tracking.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_apps.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_system.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libpthread.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libqhull.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libOpenNI.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkCommon.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkFiltering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkImaging.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkGraphics.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkGenericFiltering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkIO.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkRendering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkVolumeRendering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkHybrid.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkWidgets.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkParallel.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkInfovis.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkGeovis.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkViews.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkCharts.so.5.8.0
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libxmlrpcpp.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libtf2.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libroscpp_serialization.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/librosconsole.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-devel/lib/frame_registration/frame_registration: /usr/lib/liblog4cxx.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/librostime.so
-devel/lib/frame_registration/frame_registration: /opt/ros/indigo/lib/libcpp_common.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-devel/lib/frame_registration/frame_registration: /home/tmrcv1/catkin_ws/devel/lib/libdepth_registration.so
-devel/lib/frame_registration/frame_registration: /usr/local/lib/libfreenect2.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_common.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_kdtree.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_octree.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_search.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_surface.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_sample_consensus.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_io.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_filters.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_features.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_keypoints.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_registration.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_segmentation.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_recognition.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_visualization.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_people.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_outofcore.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_tracking.so
-devel/lib/frame_registration/frame_registration: /usr/lib/libpcl_apps.so
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_nonfree.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkViews.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkInfovis.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkWidgets.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkVolumeRendering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkHybrid.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkParallel.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkRendering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkImaging.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkGraphics.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkIO.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkFiltering.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtkCommon.so.5.8.0
-devel/lib/frame_registration/frame_registration: /usr/lib/libvtksys.so.5.8.0
-devel/lib/frame_registration/frame_registration: CMakeFiles/frame_registration.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable devel/lib/frame_registration/frame_registration"
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/src/frame_registration.cpp.o
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/build.make
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libnodeletlib.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libbondcpp.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libcompressed_depth_image_transport.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.8
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libcv_bridge.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libimage_transport.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libclass_loader.so
+devel/lib/libframe_registration.so: /usr/lib/libPocoFoundation.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libdl.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libroslib.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libtf.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libtf2_ros.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libactionlib.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libmessage_filters.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libroscpp.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libxmlrpcpp.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libtf2.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libroscpp_serialization.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/librosconsole.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+devel/lib/libframe_registration.so: /usr/lib/liblog4cxx.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/librostime.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libcpp_common.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+devel/lib/libframe_registration.so: /home/tmrcv1/catkin_ws/devel/lib/libdepth_registration.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_nonfree.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+devel/lib/libframe_registration.so: /usr/local/lib/libfreenect2.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_common.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+devel/lib/libframe_registration.so: /usr/lib/libpcl_kdtree.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_octree.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_search.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libqhull.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_surface.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_sample_consensus.so
+devel/lib/libframe_registration.so: /usr/lib/libOpenNI.so
+devel/lib/libframe_registration.so: /usr/lib/libvtkCommon.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkFiltering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkImaging.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkGraphics.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkGenericFiltering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkIO.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkRendering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkVolumeRendering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkHybrid.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkWidgets.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkParallel.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkInfovis.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkGeovis.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkViews.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkCharts.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libpcl_io.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_filters.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_features.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_keypoints.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_registration.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_segmentation.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_recognition.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_visualization.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_people.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_outofcore.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_tracking.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_apps.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libqhull.so
+devel/lib/libframe_registration.so: /usr/lib/libOpenNI.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+devel/lib/libframe_registration.so: /usr/lib/libvtkCommon.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkFiltering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkImaging.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkGraphics.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkGenericFiltering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkIO.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkRendering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkVolumeRendering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkHybrid.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkWidgets.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkParallel.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkInfovis.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkGeovis.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkViews.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkCharts.so.5.8.0
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libxmlrpcpp.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libtf2.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libroscpp_serialization.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/librosconsole.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+devel/lib/libframe_registration.so: /usr/lib/liblog4cxx.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/librostime.so
+devel/lib/libframe_registration.so: /opt/ros/indigo/lib/libcpp_common.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+devel/lib/libframe_registration.so: /home/tmrcv1/catkin_ws/devel/lib/libdepth_registration.so
+devel/lib/libframe_registration.so: /usr/local/lib/libfreenect2.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_common.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_kdtree.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_octree.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_search.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_surface.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_sample_consensus.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_io.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_filters.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_features.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_keypoints.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_registration.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_segmentation.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_recognition.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_visualization.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_people.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_outofcore.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_tracking.so
+devel/lib/libframe_registration.so: /usr/lib/libpcl_apps.so
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_nonfree.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+devel/lib/libframe_registration.so: /usr/lib/libvtkViews.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkInfovis.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkWidgets.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkVolumeRendering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkHybrid.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkParallel.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkRendering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkImaging.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkGraphics.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkIO.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkFiltering.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtkCommon.so.5.8.0
+devel/lib/libframe_registration.so: /usr/lib/libvtksys.so.5.8.0
+devel/lib/libframe_registration.so: CMakeFiles/frame_registration.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library devel/lib/libframe_registration.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/frame_registration.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/frame_registration.dir/build: devel/lib/frame_registration/frame_registration
+CMakeFiles/frame_registration.dir/build: devel/lib/libframe_registration.so
 .PHONY : CMakeFiles/frame_registration.dir/build
 
 CMakeFiles/frame_registration.dir/requires: CMakeFiles/frame_registration.dir/src/frame_registration.cpp.o.requires
 CMakeFiles/frame_registration.dir/requires: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o.requires
 CMakeFiles/frame_registration.dir/requires: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o.requires
+CMakeFiles/frame_registration.dir/requires: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.requires
+CMakeFiles/frame_registration.dir/requires: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.requires
+CMakeFiles/frame_registration.dir/requires: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.requires
+CMakeFiles/frame_registration.dir/requires: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.requires
+CMakeFiles/frame_registration.dir/requires: CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.requires
 .PHONY : CMakeFiles/frame_registration.dir/requires
 
 CMakeFiles/frame_registration.dir/clean:

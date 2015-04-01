@@ -121,11 +121,131 @@ CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_m
 
 CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o.provides.build: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
 
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o: CMakeFiles/frame_registration_nodelet.dir/flags.make
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp > CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.requires
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.provides: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.provides
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.provides.build: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o: CMakeFiles/frame_registration_nodelet.dir/flags.make
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp > CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.requires
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.provides: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.provides
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.provides.build: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o: CMakeFiles/frame_registration_nodelet.dir/flags.make
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp > CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.requires
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.provides: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.provides
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.provides.build: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o: CMakeFiles/frame_registration_nodelet.dir/flags.make
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp > CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.requires
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.provides: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.provides
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.provides.build: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o: CMakeFiles/frame_registration_nodelet.dir/flags.make
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o: /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tmrcv1/catkin_ws/src/frame_registration/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o -c /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp > CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp -o CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.requires
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.provides: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.provides
+
+CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.provides.build: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o
+
 # Object files for target frame_registration_nodelet
 frame_registration_nodelet_OBJECTS = \
 "CMakeFiles/frame_registration_nodelet.dir/src/frame_registration.cpp.o" \
 "CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o" \
-"CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o"
+"CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o" \
+"CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o" \
+"CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o" \
+"CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o" \
+"CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o" \
+"CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o"
 
 # External object files for target frame_registration_nodelet
 frame_registration_nodelet_EXTERNAL_OBJECTS =
@@ -133,6 +253,11 @@ frame_registration_nodelet_EXTERNAL_OBJECTS =
 devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/src/frame_registration.cpp.o
 devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
 devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
+devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o
+devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o
+devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o
+devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o
+devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o
 devel/lib/libframe_registration_nodelet.so: CMakeFiles/frame_registration_nodelet.dir/build.make
 devel/lib/libframe_registration_nodelet.so: /opt/ros/indigo/lib/libnodeletlib.so
 devel/lib/libframe_registration_nodelet.so: /opt/ros/indigo/lib/libbondcpp.so
@@ -345,6 +470,11 @@ CMakeFiles/frame_registration_nodelet.dir/build: devel/lib/libframe_registration
 CMakeFiles/frame_registration_nodelet.dir/requires: CMakeFiles/frame_registration_nodelet.dir/src/frame_registration.cpp.o.requires
 CMakeFiles/frame_registration_nodelet.dir/requires: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o.requires
 CMakeFiles/frame_registration_nodelet.dir/requires: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o.requires
+CMakeFiles/frame_registration_nodelet.dir/requires: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o.requires
+CMakeFiles/frame_registration_nodelet.dir/requires: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o.requires
+CMakeFiles/frame_registration_nodelet.dir/requires: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o.requires
+CMakeFiles/frame_registration_nodelet.dir/requires: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o.requires
+CMakeFiles/frame_registration_nodelet.dir/requires: CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o.requires
 .PHONY : CMakeFiles/frame_registration_nodelet.dir/requires
 
 CMakeFiles/frame_registration_nodelet.dir/clean:

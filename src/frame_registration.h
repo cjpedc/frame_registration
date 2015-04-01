@@ -38,6 +38,7 @@ public:
     int counter_imgrec = 0;
     void cloud_imgrec(const sensor_msgs::PointCloud2::ConstPtr& input);
     void bow();
+    void images_fast_map();
 
 
 private:
