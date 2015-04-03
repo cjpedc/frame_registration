@@ -5,6 +5,10 @@
 #include "std_msgs/String.h"
 #include <sensor_msgs/PointCloud2.h>
 #include <pcl_ros/point_cloud.h>
+#include <geometry_msgs/PoseStamped.h>
+#include <tf/tf.h>
+#include <tf_conversions/tf_eigen.h>
+#include <Eigen/Eigen>
 
 // PCL specific includes
 #include <pcl/conversions.h>
@@ -32,9 +36,13 @@ using namespace std;
 class frame_registration{
 
 public:
+    bool save_data = false;
     frame_registration();
     string path_imgrec = "/home/tmrcv1/Desktop/images_test";
     string path_bow = "/home/tmrcv1/Desktop/images_test/bow_test/bow_test";
+    pcl::PointCloud<pcl::PointXYZRGB> input_cloud;
+    geometry_msgs::PoseStamped f_pose;
+
     int counter_imgrec = 0;
     void cloud_imgrec(const sensor_msgs::PointCloud2::ConstPtr& input);
     void bow();
@@ -44,7 +52,7 @@ public:
 private:
 
     ros::Subscriber image_rec_sub_;
-
+    ros::Publisher fpose_pub_;
 
 };
 }//namespace aick
