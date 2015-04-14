@@ -44,15 +44,20 @@ public:
     geometry_msgs::PoseStamped f_pose;
 
     int counter_imgrec;
+    double sec_stamp_pdc;
     void cloud_imgrec(const sensor_msgs::PointCloud2::ConstPtr& input);
     void bow();
     void images_fast_map();
+    ~frame_registration();
 
 
 private:
 
     ros::Subscriber image_rec_sub_;
     ros::Publisher fpose_pub_;
+    Map3D * m = new Map3D();	//Create a standard map object
+    vector<Matrix4f> poses;
+    vector<Matrix4f> prev_poses;
 
 };
 }//namespace aick

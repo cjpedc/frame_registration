@@ -151,6 +151,7 @@ void frame_registration::images_fast_map(){
     }
 
     poses = m->estimateCurrentPose(prev_poses);	//Estimate poses for the frames using the map object.
+    prev_poses = poses;
     //poses = m->NEWestimate();	//Estimate poses for the frames using the map object.
 
     tf::Matrix3x3 rotationMat;
