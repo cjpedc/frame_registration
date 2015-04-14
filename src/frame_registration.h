@@ -36,14 +36,14 @@ using namespace std;
 class frame_registration{
 
 public:
-    bool save_data = false;
+    bool save_data;
     frame_registration();
-    string path_imgrec = "/home/tmrcv1/Desktop/images_test";
-    string path_bow = "/home/tmrcv1/Desktop/images_test/bow_test/bow_test";
-    pcl::PointCloud<pcl::PointXYZRGB>::Ptr input_cloud;
+    string path_imgrec;
+    string path_bow;
+
     geometry_msgs::PoseStamped f_pose;
 
-    int counter_imgrec = 0;
+    int counter_imgrec;
     void cloud_imgrec(const sensor_msgs::PointCloud2::ConstPtr& input);
     void bow();
     void images_fast_map();

@@ -1,8 +1,21 @@
 #include "frame_registration.h"
 
+#include <pcl/common/transforms.h>
+#include <pcl_conversions/pcl_conversions.h>
+#include <pcl/segmentation/sac_segmentation.h>
+#include <pcl/segmentation/plane_refinement_comparator.h>
+
 namespace aick{
 
+pcl::PointCloud<pcl::PointXYZRGB>::Ptr input_cloud (new pcl::PointCloud<pcl::PointXYZRGB>);
+Map3D * m = new Map3D();	//Create a standard map object
+
 frame_registration::frame_registration(){
+
+    save_data = false;
+    path_imgrec = "/home/tmrcv1/Desktop/images_test";
+    path_bow = "/home/tmrcv1/Desktop/images_test/bow_test/bow_base";
+    counter_imgrec = 0;
 
     ros::NodeHandle n_;
 
@@ -10,7 +23,7 @@ frame_registration::frame_registration(){
     fpose_pub_ = n_.advertise<geometry_msgs::PoseStamped>("/frame_registration_pose/camera1", 1);
 
     return;
-}
+};
 
 void frame_registration::cloud_imgrec(const sensor_msgs::PointCloud2::ConstPtr& input){
 
@@ -52,6 +65,7 @@ void frame_registration::cloud_imgrec(const sensor_msgs::PointCloud2::ConstPtr& 
         bow();
     }
 
+    images_fast_map();
 
     return;
 }
@@ -89,11 +103,11 @@ void frame_registration::bow(){
 void frame_registration::images_fast_map(){
 
     printf("starting testing software2\n");
-    printf("give path to files as input\n");
+    //printf("give path to files as input\n");
     string input = path_imgrec;
 
-    Map3D * m = new Map3D();	//Create a standard map object
-    m->setVerbose(true);		//Set the map to give text output
+    //Map3D * m = new Map3D();	//Create a standard map object
+    m->setVerbose(false);		//Set the map to give text output
 
     m->loadCalibrationWords(path_bow,"orb", 500);	//set bag of words to orb 500 orb features from bow_path
     m->setFeatureExtractor(new OrbExtractor());		//Use orb features
@@ -162,7 +176,7 @@ void frame_registration::images_fast_map(){
 
 int main(int argc, char **argv)
 {
-    ros::init(argc, argv, "");
+    ros::init(argc, argv, "frame_registration");
 
     aick::frame_registration aick_node;
 

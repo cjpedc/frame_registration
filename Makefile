@@ -283,19 +283,6 @@ clean_test_results/fast:
 .PHONY : clean_test_results/fast
 
 #=============================================================================
-# Target rules for targets named compressed_depth_image_transport_gencfg
-
-# Build rule for target.
-compressed_depth_image_transport_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compressed_depth_image_transport_gencfg
-.PHONY : compressed_depth_image_transport_gencfg
-
-# fast build rule for target.
-compressed_depth_image_transport_gencfg/fast:
-	$(MAKE) -f CMakeFiles/compressed_depth_image_transport_gencfg.dir/build.make CMakeFiles/compressed_depth_image_transport_gencfg.dir/build
-.PHONY : compressed_depth_image_transport_gencfg/fast
-
-#=============================================================================
 # Target rules for targets named doxygen
 
 # Build rule for target.
@@ -361,30 +348,17 @@ dynamic_reconfigure_generate_messages_py/fast:
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named frame_registration
+# Target rules for targets named frame_registration_node
 
 # Build rule for target.
-frame_registration: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 frame_registration
-.PHONY : frame_registration
+frame_registration_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 frame_registration_node
+.PHONY : frame_registration_node
 
 # fast build rule for target.
-frame_registration/fast:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/build
-.PHONY : frame_registration/fast
-
-#=============================================================================
-# Target rules for targets named frame_registration_nodelet
-
-# Build rule for target.
-frame_registration_nodelet: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 frame_registration_nodelet
-.PHONY : frame_registration_nodelet
-
-# fast build rule for target.
-frame_registration_nodelet/fast:
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/build
-.PHONY : frame_registration_nodelet/fast
+frame_registration_node/fast:
+	$(MAKE) -f CMakeFiles/frame_registration_node.dir/build.make CMakeFiles/frame_registration_node.dir/build
+.PHONY : frame_registration_node/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
@@ -841,202 +815,12 @@ gtest_main/fast:
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.o
-
-# target to build an object file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.o
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.i
-
-# target to preprocess a source file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.i
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.s
-
-# target to generate assembly for a file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.cpp.s
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.o
-
-# target to build an object file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.o
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.i
-
-# target to preprocess a source file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.i
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.s
-
-# target to generate assembly for a file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.cpp.s
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.o
-
-# target to build an object file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.o
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.i
-
-# target to preprocess a source file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.i
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.s
-
-# target to generate assembly for a file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.cpp.s
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.o
-
-# target to build an object file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.o
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.i
-
-# target to preprocess a source file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.i
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.s
-
-# target to generate assembly for a file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.cpp.s
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.o
-
-# target to build an object file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.o
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.i
-
-# target to preprocess a source file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.i
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.s
-
-# target to generate assembly for a file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.cpp.s
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.o
-
-# target to build an object file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.o
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.i
-
-# target to preprocess a source file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.i
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.s
-
-# target to generate assembly for a file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.cpp.s
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.o: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.o
-
-# target to build an object file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.o
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.i: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.i
-
-# target to preprocess a source file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.i
-
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.s: home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.s
-
-# target to generate assembly for a file
-home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s
-.PHONY : home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.cpp.s
-
 src/frame_registration.o: src/frame_registration.cpp.o
 .PHONY : src/frame_registration.o
 
 # target to build an object file
 src/frame_registration.cpp.o:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/src/frame_registration.cpp.o
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/src/frame_registration.cpp.o
+	$(MAKE) -f CMakeFiles/frame_registration_node.dir/build.make CMakeFiles/frame_registration_node.dir/src/frame_registration.cpp.o
 .PHONY : src/frame_registration.cpp.o
 
 src/frame_registration.i: src/frame_registration.cpp.i
@@ -1044,8 +828,7 @@ src/frame_registration.i: src/frame_registration.cpp.i
 
 # target to preprocess a source file
 src/frame_registration.cpp.i:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/src/frame_registration.cpp.i
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/src/frame_registration.cpp.i
+	$(MAKE) -f CMakeFiles/frame_registration_node.dir/build.make CMakeFiles/frame_registration_node.dir/src/frame_registration.cpp.i
 .PHONY : src/frame_registration.cpp.i
 
 src/frame_registration.s: src/frame_registration.cpp.s
@@ -1053,8 +836,7 @@ src/frame_registration.s: src/frame_registration.cpp.s
 
 # target to generate assembly for a file
 src/frame_registration.cpp.s:
-	$(MAKE) -f CMakeFiles/frame_registration.dir/build.make CMakeFiles/frame_registration.dir/src/frame_registration.cpp.s
-	$(MAKE) -f CMakeFiles/frame_registration_nodelet.dir/build.make CMakeFiles/frame_registration_nodelet.dir/src/frame_registration.cpp.s
+	$(MAKE) -f CMakeFiles/frame_registration_node.dir/build.make CMakeFiles/frame_registration_node.dir/src/frame_registration.cpp.s
 .PHONY : src/frame_registration.cpp.s
 
 # Help Target
@@ -1073,15 +855,13 @@ help:
 	@echo "... bond_generate_messages_lisp"
 	@echo "... bond_generate_messages_py"
 	@echo "... clean_test_results"
-	@echo "... compressed_depth_image_transport_gencfg"
 	@echo "... doxygen"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
-	@echo "... frame_registration"
-	@echo "... frame_registration_nodelet"
+	@echo "... frame_registration_node"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -1123,27 +903,6 @@ help:
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.o"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.i"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FeatureDescriptor.s"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.o"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.i"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/FloatHistogramFeatureDescriptor.s"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.o"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.i"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/OrbFeatureDescriptor.s"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.o"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.i"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor128.s"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.o"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.i"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/FeatureDescriptor/SurfFeatureDescriptor64.s"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.o"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.i"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3D.s"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.o"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.i"
-	@echo "... home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src/Map/Map3Dbow.s"
 	@echo "... src/frame_registration.o"
 	@echo "... src/frame_registration.i"
 	@echo "... src/frame_registration.s"

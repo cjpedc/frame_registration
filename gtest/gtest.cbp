@@ -5,7 +5,7 @@
       <Option title="gtest" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\indigo\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\..\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\env-hooks\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_conversions\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_conversions\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\geometry_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_ros\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_ros\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\dynamic_reconfigure\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\dynamic_reconfigure\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_filters\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\nodelet\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\nodelet\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\bondcpp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\bondcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\bond\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\bond\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\smclib\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\smclib\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pluginlib\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\class_loader\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roslib\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roslib\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosbag\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosbag\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosbag_storage\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosbag_storage\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roslz4\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roslz4\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\topic_tools\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\topic_tools\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_ros\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_ros\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\actionlib\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\actionlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\actionlib_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\actionlib_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genmsg\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genmsg\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\gencpp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\gencpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genlisp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genlisp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genpy\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genpy\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosgraph\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosgraph\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_generation\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_generation\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_py\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_py\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rospy\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rospy\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\cv_bridge\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\compressed_depth_image_transport\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\compressed_depth_image_transport\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\image_transport\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\freenect2\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\usr\share\pcl-1.7\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\;CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\CMake\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\devel\;CMake Files\..\..\devel\share\;CMake Files\..\..\devel\share\depth_registration\;CMake Files\..\..\devel\share\depth_registration\cmake\;CMake Files\catkin\;CMake Files\catkin\catkin_generated\;CMake Files\catkin\catkin_generated\version\;CMake Files\catkin_generated\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\indigo\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\..\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\env-hooks\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_conversions\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_conversions\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\geometry_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_ros\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pcl_ros\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\dynamic_reconfigure\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\dynamic_reconfigure\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_filters\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\nodelet\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\nodelet\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\bondcpp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\bondcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\bond\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\bond\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\smclib\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\smclib\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pluginlib\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\class_loader\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roslib\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roslib\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosbag\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosbag\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosbag_storage\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosbag_storage\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roslz4\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\roslz4\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\topic_tools\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\topic_tools\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_ros\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_ros\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\actionlib\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\actionlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\actionlib_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\actionlib_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genmsg\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genmsg\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\gencpp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\gencpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genlisp\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genlisp\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genpy\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\genpy\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosgraph\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rosgraph\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_msgs\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_generation\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\message_generation\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_py\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\tf2_py\cmake\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rospy\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\rospy\cmake\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\devel\;CMake Files\..\..\devel\share\;CMake Files\..\..\devel\share\ekz_public_lib\;CMake Files\..\..\devel\share\ekz_public_lib\cmake\;CMake Files\catkin\;CMake Files\catkin\catkin_generated\;CMake Files\catkin\catkin_generated\version\;CMake Files\catkin_generated\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/tmrcv1/catkin_ws/src/frame_registration/gtest" />
@@ -184,12 +184,6 @@
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/catkin/cmake/interrogate_setup_dot_py.py">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
       </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
-      </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/catkin/cmake/platform/lsb.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\" />
       </Unit>
@@ -337,12 +331,6 @@
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/rostime/cmake/rostimeConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\rostime\cmake\" />
       </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/rostime/cmake/rostimeConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\rostime\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/rostime/cmake/rostimeConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\rostime\cmake\" />
-      </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
       </Unit>
@@ -350,12 +338,6 @@
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
       </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
       </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
@@ -382,12 +364,6 @@
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
       </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
-      </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
       </Unit>
@@ -395,12 +371,6 @@
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
       </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/roscpp/cmake/roscpp-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
       </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig-version.cmake">
@@ -467,12 +437,6 @@
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\nodelet\cmake\" />
       </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/nodelet/cmake/nodelet-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\nodelet\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/nodelet/cmake/nodeletConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\nodelet\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/nodelet/cmake/nodeletConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\nodelet\cmake\" />
       </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/bondcpp/cmake/bondcppConfig-version.cmake">
@@ -664,27 +628,6 @@
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/rospy/cmake/rospyConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\rospy\cmake\" />
       </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/cv_bridge/cmake/cv_bridgeConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/compressed_depth_image_transport/cmake/compressed_depth_image_transportConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\compressed_depth_image_transport\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/compressed_depth_image_transport/cmake/compressed_depth_image_transportConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\compressed_depth_image_transport\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/image_transport/cmake/image_transportConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../opt/ros/indigo/share/image_transport/cmake/image_transportConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/local/lib/cmake/freenect2/freenect2Config.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\freenect2\" />
-      </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
       </Unit>
@@ -697,153 +640,6 @@
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
       </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/share/pcl-1.7/PCLConfigVersion.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.7\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/share/pcl-1.7/PCLConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.7\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/share/pcl-1.7/PCLConfigVersion.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.7\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/share/pcl-1.7/PCLConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.7\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Java.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Python.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Tcl.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKTargets.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKTargets-release.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Java.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Python.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Tcl.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Java.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Python.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Tcl.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Java.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Python.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Tcl.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Java.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Python.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Tcl.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Java.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Python.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfig-Tcl.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/lib/vtk-5.8/CMake/vtkMakeInstantiator.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\CMake\" />
-      </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/src/gtest/CMakeLists.txt">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gtest\" />
       </Unit>
@@ -856,23 +652,14 @@
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../../../../usr/src/gtest/cmake/internal_utils.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gtest\cmake\" />
       </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../devel/share/depth_registration/cmake/depth_registrationConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\devel\share\depth_registration\cmake\" />
+      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../devel/share/ekz_public_lib/cmake/ekz_public_libConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\devel\share\ekz_public_lib\cmake\" />
       </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../devel/share/depth_registration/cmake/depth_registrationConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\devel\share\depth_registration\cmake\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../devel/share/depth_registration/cmake/depth_registration.cmake">
-          <Option virtualFolder="CMake Files\..\..\devel\share\depth_registration\cmake\" />
+      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/../../devel/share/ekz_public_lib/cmake/ekz_public_libConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\devel\share\ekz_public_lib\cmake\" />
       </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/catkin/catkin_generated/version/package.cmake">
           <Option virtualFolder="CMake Files\catkin\catkin_generated\version\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/catkin_generated/ordered_paths.cmake">
-          <Option virtualFolder="CMake Files\catkin_generated\" />
-      </Unit>
-      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/catkin_generated/ordered_paths.cmake">
-          <Option virtualFolder="CMake Files\catkin_generated\" />
       </Unit>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/catkin_generated/ordered_paths.cmake">
           <Option virtualFolder="CMake Files\catkin_generated\" />
