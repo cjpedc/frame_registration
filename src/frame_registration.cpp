@@ -15,6 +15,8 @@ frame_registration::frame_registration(){
     path_imgrec = "/home/tmrcv1/Desktop/images_test";
     path_bow = "/home/tmrcv1/Desktop/images_test/bow_test/bow_base";
     counter_imgrec = 0;
+    n_keymatches = 0;
+    m = new Map3D();	//Create a standard map object
     poses.push_back(Matrix4f::Identity());
     prev_poses = poses;
 
@@ -28,6 +30,8 @@ frame_registration::frame_registration(){
 
 frame_registration::~frame_registration(){
 
+    poses.clear();
+    poses = m->estimate();
     m->savePCD("test.pcd");					//Saves a downsampled pointcloud with aligned data.
 
 }
@@ -129,55 +133,94 @@ void frame_registration::images_fast_map(){
         float feature_threshold = 0.15;					//Feature threshold to discard bad matches using feature information.
 
         m->setMatcher(new BowAICK(max_points, nr_iter,shrinking,bow_threshold,distance_threshold,feature_threshold));//Create a new matcher
-    }
 
-    if(save_data){
-        vector< RGBDFrame * > frames;
-        for(int i = 1; i <=counter_imgrec ; i+=1){
-            //printf("----------------------%i-------------------\nadding a new frame\n",i);
+        if(save_data){
+            vector< RGBDFrame * > frames;
+            for(int i = 1; i <=counter_imgrec ; i+=1){
+                //printf("----------------------%i-------------------\nadding a new frame\n",i);
 
-            //Get paths to image files
-            char rgbbuf[512];
-            char depthbuf[512];
-            sprintf(rgbbuf,"%s/RGB%.10i.png",input.c_str(),i);
-            sprintf(depthbuf,"%s/Depth%.10i.png",input.c_str(),i);
+                //Get paths to image files
+                char rgbbuf[512];
+                char depthbuf[512];
+                sprintf(rgbbuf,"%s/RGB%.10i.png",input.c_str(),i);
+                sprintf(depthbuf,"%s/Depth%.10i.png",input.c_str(),i);
 
-            //Add frame to map
-            m->addFrame(string(rgbbuf) , string(depthbuf));
+                //Add frame to map
+                m->addFrame(string(rgbbuf) , string(depthbuf));
+
+            }
+        }else{
+
+            m->addFrame(input_cloud);
 
         }
+
     }else{
-        m->addFrame(input_cloud);
+
+        if(save_data){
+            vector< RGBDFrame * > frames;
+            for(int i = 1; i <=counter_imgrec ; i+=1){
+                //printf("----------------------%i-------------------\nadding a new frame\n",i);
+
+                //Get paths to image files
+                char rgbbuf[512];
+                char depthbuf[512];
+                sprintf(rgbbuf,"%s/RGB%.10i.png",input.c_str(),i);
+                sprintf(depthbuf,"%s/Depth%.10i.png",input.c_str(),i);
+
+                //Add frame to map
+                m->addFrame(string(rgbbuf) , string(depthbuf));
+
+            }
+        }else{
+            m->addFrame(input_cloud);
+
+            n_keymatches = m->numberOfMatchesInLastFrame();
+
+            cout << "MATCHES =" << n_keymatches << endl;
+
+            if(n_keymatches < 80){
+
+                cout << "Too few feature matches, removing last frame..." << endl;
+                m->removeLastFrame();
+
+            }else{
+                poses = m->estimateCurrentPose(prev_poses);	//Estimate poses for the frames using the map object.
+                prev_poses = poses;
+                //poses = m->NEWestimate();	//Estimate poses for the frames using the map object.
+
+            }
+            tf::Matrix3x3 rotationMat;
+            rotationMat.setValue(poses.back()(0,0), poses.back()(0,1),poses.back()(0,2),
+                                 poses.back()(1,0), poses.back()(1,1),poses.back()(1,2),
+                                 poses.back()(2,0), poses.back()(2,1),poses.back()(2,2) );
+
+            tf::Quaternion q;
+            rotationMat.getRotation(q);
+            f_pose.pose.position.x = poses.back()(0,3);
+            f_pose.pose.position.y = poses.back()(1,3);
+            f_pose.pose.position.z = poses.back()(2,3);
+            f_pose.pose.orientation.x = q.x();
+            f_pose.pose.orientation.y = q.y();
+            f_pose.pose.orientation.z = q.z();
+            f_pose.pose.orientation.w = q.w();
+            f_pose.header.frame_id = "/camera_link";
+            f_pose.header.stamp.sec = sec_stamp_pdc;
+
+            fpose_pub_.publish(f_pose);
+
+            //Print poses
+            //    cout << "Poses:" << endl;
+            //    for(unsigned int i = 0; i < poses.size(); i++){
+            //        cout << poses.at(i) << endl << endl;
+            //    }
+        }
+
     }
 
-    poses = m->estimateCurrentPose(prev_poses);	//Estimate poses for the frames using the map object.
-    //poses = m->NEWestimate();	//Estimate poses for the frames using the map object.
 
-    tf::Matrix3x3 rotationMat;
-    rotationMat.setValue(poses.back()(0,0), poses.back()(0,1),poses.back()(0,2),
-                         poses.back()(1,0), poses.back()(1,1),poses.back()(1,2),
-                         poses.back()(2,0), poses.back()(2,1),poses.back()(2,2) );
 
-    tf::Quaternion q;
-    rotationMat.getRotation(q);
 
-    f_pose.pose.position.x = poses.back()(0,3);
-    f_pose.pose.position.y = poses.back()(1,3);
-    f_pose.pose.position.z = poses.back()(2,3);
-    f_pose.pose.orientation.x = q.x();
-    f_pose.pose.orientation.y = q.y();
-    f_pose.pose.orientation.z = q.z();
-    f_pose.pose.orientation.w = q.w();
-    f_pose.header.frame_id = "/camera_pose";
-    f_pose.header.stamp.sec = sec_stamp_pdc;
-
-    fpose_pub_.publish(f_pose);
-
-    //Print poses
-//    cout << "Poses:" << endl;
-//    for(unsigned int i = 0; i < poses.size(); i++){
-//        cout << poses.at(i) << endl << endl;
-//    }
 
     return;
 }
