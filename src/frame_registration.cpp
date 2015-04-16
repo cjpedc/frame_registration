@@ -22,7 +22,7 @@ frame_registration::frame_registration(){
 
     ros::NodeHandle n_;
 
-    image_rec_sub_ = n_.subscribe("/kinect2/depth_lowres/points", 5, &frame_registration::cloud_imgrec, this);
+    image_rec_sub_ = n_.subscribe("/kinect2/depth_lowres/points", 1, &frame_registration::cloud_imgrec, this);
     fpose_pub_ = n_.advertise<geometry_msgs::PoseStamped>("/frame_registration_pose/camera1", 1);
 
     return;
@@ -126,7 +126,7 @@ void frame_registration::images_fast_map(){
         m->setFeatureExtractor(new OrbExtractor());		//Use orb features
 
         int max_points = 300;							//Number of keypoints used by matcher
-        int nr_iter = 10;								//Number of iterations the matcher will run
+        int nr_iter = 8;								//Number of iterations the matcher will run
         float shrinking = 0.7;							//The rate of convergence for the matcher
         float bow_threshold = 0.15;						//Bag of words threshold to avoid investigating bad matches
         float distance_threshold = 0.015;				//Distance threshold to discard bad matches using euclidean information.
@@ -151,6 +151,7 @@ void frame_registration::images_fast_map(){
             }
         }else{
 
+            printf("----------------------%i-------------------\nadding a new frame\n",counter_imgrec);
             m->addFrame(input_cloud);
 
         }
@@ -173,13 +174,16 @@ void frame_registration::images_fast_map(){
 
             }
         }else{
+
+            printf("----------------------%i-------------------\nadding a new frame\n",counter_imgrec);
+
             m->addFrame(input_cloud);
 
             n_keymatches = m->numberOfMatchesInLastFrame();
 
             cout << "MATCHES =" << n_keymatches << endl;
 
-            if(n_keymatches < 80){
+            if(n_keymatches < 30){
 
                 cout << "Too few feature matches, removing last frame..." << endl;
                 m->removeLastFrame();
@@ -234,7 +238,7 @@ int main(int argc, char **argv)
 
     aick::frame_registration aick_node;
 
-    ros::Rate loop_rate(30);
+    ros::Rate loop_rate(100);
 
     while (ros::ok())
     {
