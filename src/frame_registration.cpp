@@ -8,6 +8,9 @@
 namespace aick{
 
 pcl::PointCloud<pcl::PointXYZRGB>::Ptr input_cloud (new pcl::PointCloud<pcl::PointXYZRGB>);
+tf::Matrix3x3 rotationMat;
+tf::Quaternion q;
+
 
 frame_registration::frame_registration(){
 
@@ -30,9 +33,9 @@ frame_registration::frame_registration(){
 
 frame_registration::~frame_registration(){
 
-    poses.clear();
-    poses = m->estimate();
-    m->savePCD("test.pcd");					//Saves a downsampled pointcloud with aligned data.
+//    poses.clear();
+//    poses = m->estimate();
+//    m->savePCD("test.pcd");					//Saves a downsampled pointcloud with aligned data.
 
 }
 
@@ -183,10 +186,11 @@ void frame_registration::images_fast_map(){
 
             cout << "MATCHES =" << n_keymatches << endl;
 
-            if(n_keymatches < 30){
+            if(n_keymatches < 100){
+                cout << "Too few feature matches, pose not estimated" << endl;
 
-                cout << "Too few feature matches, removing last frame..." << endl;
-                m->removeLastFrame();
+                //cout << "Too few feature matches, removing last frame..." << endl;
+                //m->removeLastFrame();
 
             }else{
                 poses = m->estimateCurrentPose(prev_poses);	//Estimate poses for the frames using the map object.
@@ -194,21 +198,21 @@ void frame_registration::images_fast_map(){
                 //poses = m->NEWestimate();	//Estimate poses for the frames using the map object.
 
             }
-            tf::Matrix3x3 rotationMat;
+
             rotationMat.setValue(poses.back()(0,0), poses.back()(0,1),poses.back()(0,2),
                                  poses.back()(1,0), poses.back()(1,1),poses.back()(1,2),
                                  poses.back()(2,0), poses.back()(2,1),poses.back()(2,2) );
 
-            tf::Quaternion q;
+            //tf::Quaternion q;
             rotationMat.getRotation(q);
             f_pose.pose.position.x = poses.back()(0,3);
-            f_pose.pose.position.y = poses.back()(1,3);
-            f_pose.pose.position.z = poses.back()(2,3);
-            f_pose.pose.orientation.x = q.x();
+            f_pose.pose.position.y = poses.back()(2,3);
+            f_pose.pose.position.z = (-1)*poses.back()(1,3);
+            f_pose.pose.orientation.x = q.z();
             f_pose.pose.orientation.y = q.y();
-            f_pose.pose.orientation.z = q.z();
+            f_pose.pose.orientation.z = q.x();
             f_pose.pose.orientation.w = q.w();
-            f_pose.header.frame_id = "/camera_link";
+            f_pose.header.frame_id = "/camera1";
             f_pose.header.stamp.sec = sec_stamp_pdc;
 
             fpose_pub_.publish(f_pose);

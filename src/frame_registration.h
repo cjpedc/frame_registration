@@ -36,21 +36,20 @@ using namespace std;
 class frame_registration{
 
 public:
-    bool save_data;
+
     frame_registration();
-    string path_imgrec;
-    string path_bow;
-
-    geometry_msgs::PoseStamped f_pose;
-
-    int counter_imgrec;
-    int n_keymatches;
-    double sec_stamp_pdc;
+    ~frame_registration();
     void cloud_imgrec(const sensor_msgs::PointCloud2::ConstPtr& input);
     void bow();
     void images_fast_map();
-    ~frame_registration();
 
+    bool save_data;
+    string path_imgrec;
+    string path_bow;
+    geometry_msgs::PoseStamped f_pose;
+    int counter_imgrec;
+    int n_keymatches;
+    double sec_stamp_pdc;
 
 private:
 
