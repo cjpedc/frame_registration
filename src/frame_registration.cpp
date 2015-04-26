@@ -207,10 +207,10 @@ void frame_registration::images_fast_map(){
             rotationMat.getRotation(q);
             f_pose.pose.position.x = poses.back()(2,3);
             f_pose.pose.position.y = (-1)*poses.back()(0,3);
-            f_pose.pose.position.z = (-1)*poses.back()(1,3);
+            f_pose.pose.position.z = 0;//(-1)*poses.back()(1,3);
             f_pose.pose.orientation.x = q.x();
             f_pose.pose.orientation.y = q.y();
-            f_pose.pose.orientation.z = q.z();
+            f_pose.pose.orientation.z = 0;//q.z();
             f_pose.pose.orientation.w = q.w();
             f_pose.header.frame_id = "/camera1";
             f_pose.header.stamp.sec = sec_stamp_pdc;
