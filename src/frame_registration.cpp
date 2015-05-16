@@ -33,9 +33,9 @@ frame_registration::frame_registration(){
 
 frame_registration::~frame_registration(){
 
-//    poses.clear();
-//    poses = m->estimate();
-//    m->savePCD("test.pcd");					//Saves a downsampled pointcloud with aligned data.
+    //    poses.clear();
+    //    poses = m->estimate();
+    //    m->savePCD("test.pcd");					//Saves a downsampled pointcloud with aligned data.
 
 }
 
@@ -130,7 +130,7 @@ void frame_registration::images_fast_map(){
 
         int max_points = 300;							//Number of keypoints used by matcher
         int nr_iter = 8;								//Number of iterations the matcher will run
-        float shrinking = 0.7;							//The rate of convergence for the matcher
+        float shrinking = 0.7;//0.7;							//The rate of convergence for the matcher
         float bow_threshold = 0.15;						//Bag of words threshold to avoid investigating bad matches
         float distance_threshold = 0.015;				//Distance threshold to discard bad matches using euclidean information.
         float feature_threshold = 0.15;					//Feature threshold to discard bad matches using feature information.
@@ -186,7 +186,8 @@ void frame_registration::images_fast_map(){
 
             cout << "MATCHES =" << n_keymatches << endl;
 
-            if(n_keymatches < 100){
+            if(n_keymatches < 0) // number of matches threshold
+            {
                 cout << "Too few feature matches, pose not estimated" << endl;
 
                 //cout << "Too few feature matches, removing last frame..." << endl;
@@ -205,8 +206,8 @@ void frame_registration::images_fast_map(){
 
             //tf::Quaternion q;
             rotationMat.getRotation(q);
-            f_pose.pose.position.x = poses.back()(2,3);
-            f_pose.pose.position.y = (-1)*poses.back()(0,3);
+            f_pose.pose.position.x = poses.back()(2,3);//poses.back()(0,3)
+            f_pose.pose.position.y = (-1)*poses.back()(0,3);//poses.back()(2,3)
             f_pose.pose.position.z = 0;//(-1)*poses.back()(1,3);
             f_pose.pose.orientation.x = 0;//q.x();
             f_pose.pose.orientation.y = 0;//q.y();
@@ -242,7 +243,7 @@ int main(int argc, char **argv)
 
     aick::frame_registration aick_node;
 
-    ros::Rate loop_rate(100);
+    ros::Rate loop_rate(30);
 
     while (ros::ok())
     {
