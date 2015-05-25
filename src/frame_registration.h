@@ -58,6 +58,9 @@ private:
     Map3D * m;	//Create a standard map object
     vector<Matrix4f> poses;
     vector<Matrix4f> prev_poses;
+    Matrix4f TM;
+    Matrix4f poseT;
+
 
 };
 }//namespace aick
