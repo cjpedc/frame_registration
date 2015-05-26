@@ -247,6 +247,76 @@
             <DistClean command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
+      <Target title="frame_registration_node2">
+         <Option output="/home/tmrcv1/catkin_ws/src/frame_registration/devel/lib/frame_registration/frame_registration_node2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tmrcv1/catkin_ws/src/frame_registration/devel/lib/frame_registration" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;frame_registration&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/frame_registration/include" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/FeatureDescriptor" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/FeatureExtractor" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/FrameMatcher" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/Map" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/RGBDSegmentation" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/TransformationFilter" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/core" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/mygeometry" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/opencv2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 frame_registration_node2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="frame_registration_node2/fast">
+         <Option output="/home/tmrcv1/catkin_ws/src/frame_registration/devel/lib/frame_registration/frame_registration_node2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tmrcv1/catkin_ws/src/frame_registration/devel/lib/frame_registration" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;frame_registration&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/frame_registration/include" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/FeatureDescriptor" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/FeatureExtractor" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/FrameMatcher" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/Map" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/RGBDSegmentation" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/TransformationFilter" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/core" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/include/mygeometry" />
+            <Add directory="/home/tmrcv1/catkin_ws/src/strands_3d_mapping/ekz-public-lib/src" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/opencv2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 frame_registration_node2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tmrcv1/catkin_ws/src/frame_registration/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
       <Target title="geometry_msgs_generate_messages_cpp">
          <Option working_dir="/home/tmrcv1/catkin_ws/src/frame_registration" />
          <Option type="4" />
@@ -711,6 +781,8 @@
       </Target>
       </Build>
       <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/src/frame_registration.cpp">
+      </Unit>
+      <Unit filename="/home/tmrcv1/catkin_ws/src/frame_registration/src/frame_registration2.cpp">
       </Unit>
       <Unit filename="/usr/src/gtest/src/gtest-all.cc">
       </Unit>

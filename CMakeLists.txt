@@ -78,6 +78,7 @@ include_directories(include
 
 ## Declare a cpp executable
 add_executable(frame_registration_node src/frame_registration.cpp)
+add_executable(frame_registration_node2 src/frame_registration2.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -85,6 +86,15 @@ add_executable(frame_registration_node src/frame_registration.cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(frame_registration_node
+  ${catkin_LIBRARIES}
+  ${catkin_LIBRARIES}
+  ${OpenCV_LIBRARIES}
+  ${freenect2_LIBRARY}
+  ${PCL_LIBRARIES}
+  ${ekz_LIBRARY}
+)
+
+target_link_libraries(frame_registration_node2
   ${catkin_LIBRARIES}
   ${catkin_LIBRARIES}
   ${OpenCV_LIBRARIES}

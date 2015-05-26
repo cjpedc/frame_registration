@@ -50,6 +50,7 @@ public:
     int counter_imgrec;
     int n_keymatches;
     double sec_stamp_pdc;
+    int first, last, step;
 
 private:
 
