@@ -57,23 +57,25 @@ void frame_registration::images_fast_map(){
 
     m->setMatcher(new BowAICK(max_points, nr_iter,shrinking,bow_threshold,distance_threshold,feature_threshold));//Create a new matcher
 
+    ifstream in("frames1.txt");
     ofstream out("position.txt");
     ofstream out2("matches.txt");
-    ofstream out3("frames.txt");
-    int gframes;
+
+    string line;
+    int frame;
 
     vector< RGBDFrame * > frames;
-    for(int i = first; i <=last ; i+=step){
+    while(getline(in,line)){
         //printf("----------------------%i-------------------\nadding a new frame\n",i);
-
+        frame = atoi(line.c_str());
         //Get paths to image files
         char rgbbuf[512];
         char depthbuf[512];
-        sprintf(rgbbuf,"%s/RGB%.10i.png",input.c_str(),i);
-        sprintf(depthbuf,"%s/Depth%.10i.png",input.c_str(),i);
+        sprintf(rgbbuf,"%s/RGB%.10i.png",input.c_str(),frame);
+        sprintf(depthbuf,"%s/Depth%.10i.png",input.c_str(),frame);
 
         //Add frame to map
-        printf("----------------------%i-------------------\nadding a new frame\n",i);
+        printf("----------------------%i-------------------\nadding a new frame\n",frame);
 
         m->addFrame(string(rgbbuf) , string(depthbuf));
         counter_imgrec++;
@@ -95,7 +97,6 @@ void frame_registration::images_fast_map(){
                 poses = m->estimateCurrentPose(prev_poses);	//Estimate poses for the frames using the map object.
                 prev_poses = poses;
                 //poses = m->NEWestimate();	//Estimate poses for the frames using the map object.
-                gframes = i;
             }
 
             // X-axis pointing right
@@ -150,7 +151,6 @@ void frame_registration::images_fast_map(){
 
             out << poseT(0,3) << ' ' << poseT(1,3) << ' ' << poseT(2,3) << '\n';
             out2 << n_keymatches << '\n';
-            out3 << gframes << '\n';
         }
 
     }
@@ -168,10 +168,6 @@ int main(int argc, char **argv)
     ros::init(argc, argv, "frame_registration");
 
     aick::frame_registration aick_node;
-
-    aick_node.first = atoi(argv[1]);
-    aick_node.last = atoi(argv[2]);
-    aick_node.step = atoi(argv[3]);
 
     aick_node.images_fast_map();
 

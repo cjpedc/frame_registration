@@ -374,6 +374,19 @@ frame_registration_node2/fast:
 .PHONY : frame_registration_node2/fast
 
 #=============================================================================
+# Target rules for targets named frame_registration_node3
+
+# Build rule for target.
+frame_registration_node3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 frame_registration_node3
+.PHONY : frame_registration_node3
+
+# fast build rule for target.
+frame_registration_node3/fast:
+	$(MAKE) -f CMakeFiles/frame_registration_node3.dir/build.make CMakeFiles/frame_registration_node3.dir/build
+.PHONY : frame_registration_node3/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -876,6 +889,30 @@ src/frame_registration2.cpp.s:
 	$(MAKE) -f CMakeFiles/frame_registration_node2.dir/build.make CMakeFiles/frame_registration_node2.dir/src/frame_registration2.cpp.s
 .PHONY : src/frame_registration2.cpp.s
 
+src/frame_registration3.o: src/frame_registration3.cpp.o
+.PHONY : src/frame_registration3.o
+
+# target to build an object file
+src/frame_registration3.cpp.o:
+	$(MAKE) -f CMakeFiles/frame_registration_node3.dir/build.make CMakeFiles/frame_registration_node3.dir/src/frame_registration3.cpp.o
+.PHONY : src/frame_registration3.cpp.o
+
+src/frame_registration3.i: src/frame_registration3.cpp.i
+.PHONY : src/frame_registration3.i
+
+# target to preprocess a source file
+src/frame_registration3.cpp.i:
+	$(MAKE) -f CMakeFiles/frame_registration_node3.dir/build.make CMakeFiles/frame_registration_node3.dir/src/frame_registration3.cpp.i
+.PHONY : src/frame_registration3.cpp.i
+
+src/frame_registration3.s: src/frame_registration3.cpp.s
+.PHONY : src/frame_registration3.s
+
+# target to generate assembly for a file
+src/frame_registration3.cpp.s:
+	$(MAKE) -f CMakeFiles/frame_registration_node3.dir/build.make CMakeFiles/frame_registration_node3.dir/src/frame_registration3.cpp.s
+.PHONY : src/frame_registration3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -900,6 +937,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... frame_registration_node"
 	@echo "... frame_registration_node2"
+	@echo "... frame_registration_node3"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -947,6 +985,9 @@ help:
 	@echo "... src/frame_registration2.o"
 	@echo "... src/frame_registration2.i"
 	@echo "... src/frame_registration2.s"
+	@echo "... src/frame_registration3.o"
+	@echo "... src/frame_registration3.i"
+	@echo "... src/frame_registration3.s"
 .PHONY : help
 
 
