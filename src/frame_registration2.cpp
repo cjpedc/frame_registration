@@ -15,7 +15,7 @@ int first, last;
 frame_registration::frame_registration(){
 
     save_data = true;
-    path_imgrec = "/home/tmrcv1/Desktop/images5";
+    path_imgrec = "/home/tmrcv1/Desktop/images4";
     path_bow = "/home/tmrcv1/Desktop/images_test/bow_test/bow_base";
     counter_imgrec = 0;
     n_keymatches = 0;
@@ -33,8 +33,8 @@ frame_registration::frame_registration(){
 frame_registration::~frame_registration(){
 
     //    poses.clear();
-        poses = m->estimate();
-        m->savePCD("test.pcd");					//Saves a downsampled pointcloud with aligned data.
+    //    poses = m->estimate();
+    //    m->savePCD("test.pcd");					//Saves a downsampled pointcloud with aligned data.
 
 }
 
@@ -156,6 +156,7 @@ void frame_registration::images_fast_map(){
     }
     out.close();
     out2.close();
+    out3.close();
     return;
 
 }
@@ -187,6 +188,3 @@ int main(int argc, char **argv)
     return 0;
 
 }
-
-
-

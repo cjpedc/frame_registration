@@ -128,11 +128,11 @@ void frame_registration::images_fast_map(){
         m->setFeatureExtractor(new OrbExtractor());		//Use orb features
 
         int max_points = 300;					    //Number of keypoints used by matcher
-        int nr_iter = 8;							//Number of iterations the matcher will run
+        int nr_iter = 50;							//Number of iterations the matcher will run
         float shrinking = 0.8;				        //The rate of convergence for the matcher
-        float bow_threshold = 0.15;					//Bag of words threshold to avoid investigating bad matches
-        float distance_threshold = 0.015;			//Distance threshold to discard bad matches using euclidean information.
-        float feature_threshold = 0.15;				//Feature threshold to discard bad matches using feature information.
+        float bow_threshold = 0.25;					//Bag of words threshold to avoid investigating bad matches
+        float distance_threshold = 0.15;			//Distance threshold to discard bad matches using euclidean information.
+        float feature_threshold = 0.25;				//Feature threshold to discard bad matches using feature information.
 
         m->setMatcher(new BowAICK(max_points, nr_iter,shrinking,bow_threshold,distance_threshold,feature_threshold));//Create a new matcher
         if(save_data){

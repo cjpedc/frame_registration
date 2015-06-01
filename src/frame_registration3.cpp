@@ -15,7 +15,7 @@ int first, last;
 frame_registration::frame_registration(){
 
     save_data = true;
-    path_imgrec = "/home/tmrcv1/Desktop/images5";
+    path_imgrec = "/home/tmrcv1/Desktop/images4";
     path_bow = "/home/tmrcv1/Desktop/images_test/bow_test/bow_base";
     counter_imgrec = 0;
     n_keymatches = 0;
@@ -57,9 +57,9 @@ void frame_registration::images_fast_map(){
 
     m->setMatcher(new BowAICK(max_points, nr_iter,shrinking,bow_threshold,distance_threshold,feature_threshold));//Create a new matcher
 
-    ifstream in("frames1.txt");
+    ifstream in("frames.txt");
     ofstream out("position.txt");
-    ofstream out2("matches.txt");
+    //ofstream out2("matches.txt");
 
     string line;
     int frame;
@@ -150,12 +150,12 @@ void frame_registration::images_fast_map(){
             fpose_pub_.publish(f_pose);
 
             out << poseT(0,3) << ' ' << poseT(1,3) << ' ' << poseT(2,3) << '\n';
-            out2 << n_keymatches << '\n';
+           // out2 << n_keymatches << '\n';
         }
 
     }
     out.close();
-    out2.close();
+    in.close();
     return;
 
 }
@@ -183,6 +183,3 @@ int main(int argc, char **argv)
     return 0;
 
 }
-
-
-
