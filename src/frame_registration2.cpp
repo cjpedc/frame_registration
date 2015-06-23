@@ -15,7 +15,7 @@ int first, last;
 frame_registration::frame_registration(){
 
     save_data = true;
-    path_imgrec = "/home/tmrcv1/Desktop/images4";
+    path_imgrec = "/home/tmrcv1/Desktop/SeminarRoom";
     path_bow = "/home/tmrcv1/Desktop/images_test/bow_test/bow_base";
     counter_imgrec = 0;
     n_keymatches = 0;
@@ -51,9 +51,9 @@ void frame_registration::images_fast_map(){
     int max_points = 300;					    //Number of keypoints used by matcher
     int nr_iter = 50;//8;							//Number of iterations the matcher will run
     float shrinking = 0.8;//0.7;				        //The rate of convergence for the matcher
-    float bow_threshold = 0.15;//0.15;					//Bag of words threshold to avoid investigating bad matches
-    float distance_threshold = 0.015;			//Distance threshold to discard bad matches using euclidean information.
-    float feature_threshold = 0.15;//0.15;				//Feature threshold to discard bad matches using feature information.
+    float bow_threshold = 0.25;//0.15;					//Bag of words threshold to avoid investigating bad matches
+    float distance_threshold = 0.15;			//Distance threshold to discard bad matches using euclidean information.
+    float feature_threshold = 0.25;//0.15;				//Feature threshold to discard bad matches using feature information.
 
     m->setMatcher(new BowAICK(max_points, nr_iter,shrinking,bow_threshold,distance_threshold,feature_threshold));//Create a new matcher
 
@@ -88,8 +88,8 @@ void frame_registration::images_fast_map(){
             {
                 cout << "Too few feature matches, pose not estimated" << endl;
 
-                cout << "Too few feature matches, removing last frame..." << endl;
-                m->removeLastFrame();
+                //cout << "Too few feature matches, removing last frame..." << endl;
+                //m->removeLastFrame();
 
             }else{
                 poses = m->estimateCurrentPose(prev_poses);	//Estimate poses for the frames using the map object.
